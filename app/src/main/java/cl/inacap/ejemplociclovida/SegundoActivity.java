@@ -11,6 +11,7 @@ import android.widget.Button;
 public class SegundoActivity extends AppCompatActivity {
     private Button irAlPrimeroBtn;
     private final String TAG = "ACTIVITY_SECUNDARIO";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,5 +56,4 @@ public class SegundoActivity extends AppCompatActivity {
         super.onDestroy();
         Log.d(TAG, "Se ejecutó el onDestroy");
     }
-
 }
